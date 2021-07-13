@@ -38,5 +38,4 @@ describe('#number_to_words') do
   it("changes 65432 to 'sixty five thousand four hundred thirty two'") do
     expect(number_to_words(65432)).to(eq("sixty five thousand four hundred thirty two"))
   end
-
 end
